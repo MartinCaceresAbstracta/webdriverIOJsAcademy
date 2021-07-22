@@ -1,0 +1,117 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626968670151' stop='1626968701173'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626968670152' status='passed' stop='1626968683805'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626968670211' status='passed' stop='1626968670211'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626968676683' status='passed' stop='1626968676683'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626968680835' status='passed' stop='1626968680835'>
+                    <name>Verificar Header</name>
+                    <title>Verificar Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626968680870' status='passed' stop='1626968680870'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626968683805' status='passed' stop='1626968688098'>
+            <name>Agregar al carrito</name>
+            <title>Agregar al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626968683806' status='passed' stop='1626968683806'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626968687863' status='passed' stop='1626968687863'>
+                    <name>Agregar prenda al carrito</name>
+                    <title>Agregar prenda al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626968688101' status='broken' stop='1626968701172'>
+            <name>Relizar chekout</name>
+            <title>Relizar chekout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626968688102' status='passed' stop='1626968688102'>
+                    <name>Ir al checkout</name>
+                    <title>Ir al checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626968690956' status='passed' stop='1626968690956'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626968691049' status='passed' stop='1626968691049'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626968691141' status='passed' stop='1626968691141'>
+                    <name>Aceptar términos y condiciones</name>
+                    <title>Aceptar términos y condiciones</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "input#cgv" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "input#cgv" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

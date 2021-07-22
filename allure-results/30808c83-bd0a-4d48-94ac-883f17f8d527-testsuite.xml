@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626900286479' stop='1626900297703'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626900286479' status='broken' stop='1626900297702'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626900286547' status='passed' stop='1626900286547'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626900286549' status='passed' stop='1626900292449'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='226be921-f24a-4f3f-b3e9-6759801e93d7-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626900292449' status='passed' stop='1626900292449'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626900292450' status='passed' stop='1626900292467'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a3082474-2d49-4c27-8d81-16f9ea5af71f-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='d1f6bfc1-e201-4447-ab63-8b2882b27d00-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626900292472' status='passed' stop='1626900292494'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='08c99b01-0095-488a-ad1c-b17c4c94580d-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='f8d227b1-7a23-4e34-9915-ea0d3f1a45b8-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626900292494' status='passed' stop='1626900292508'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='5f6e479b-8b3f-4d6c-8fa3-f1027d80ffe1-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='a7f3009e-080e-458f-9485-ddd54b6984c2-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626900292509' status='passed' stop='1626900297673'>
+                    <name>POST /session/:sessionId/element/31c8ea8b-30ff-4aa9-b137-ea8f62e931d3/click</name>
+                    <title>POST /session/:sessionId/element/31c8ea8b-30ff-4aa9-b137-ea8f62e931d3/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626900297673' status='passed' stop='1626900297673'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626900297673' status='passed' stop='1626900297692'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8b9f9492-cbcb-4828-8a1f-22ca83d5fc81-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='ae7bc3f6-d6a0-478b-9909-b001211891e6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626900297695' status='broken' stop='1626900297702'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>espera is not defined</message>
+                <stack-trace>ReferenceError: espera is not defined
+                    at LoginPage.clearAndSendKeys (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\pages\/base.page.js:44:50)
+                    at LoginPage.login (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\pages\/login.page.js:20:21)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:20:13)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

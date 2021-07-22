@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626969843539' stop='1626969860166'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626969843540' status='passed' stop='1626969851577'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626969843595' status='passed' stop='1626969843595'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969848111' status='passed' stop='1626969848111'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969849688' status='passed' stop='1626969849688'>
+                    <name>Verificar Header</name>
+                    <title>Verificar Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969849724' status='passed' stop='1626969849724'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626969851577' status='passed' stop='1626969854127'>
+            <name>Agregar al carrito</name>
+            <title>Agregar al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626969851578' status='passed' stop='1626969851578'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969853885' status='passed' stop='1626969853885'>
+                    <name>Agregar prenda al carrito</name>
+                    <title>Agregar prenda al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626969854130' status='broken' stop='1626969860163'>
+            <name>Relizar chekout</name>
+            <title>Relizar chekout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626969854130' status='passed' stop='1626969854130'>
+                    <name>Ir al checkout</name>
+                    <title>Ir al checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969857194' status='passed' stop='1626969857194'>
+                    <name>Ir al checkout</name>
+                    <title>Ir al checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969858874' status='passed' stop='1626969858874'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_checkout.default.botonAvanzarShipping is not a function</message>
+                <stack-trace>TypeError: _checkout.default.botonAvanzarShipping is not a function
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:46:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

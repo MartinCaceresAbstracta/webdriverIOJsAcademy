@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626969946391' stop='1626969977299'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626969946391' status='passed' stop='1626969956523'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626969946445' status='passed' stop='1626969946445'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969951005' status='passed' stop='1626969951005'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969953438' status='passed' stop='1626969953438'>
+                    <name>Verificar Header</name>
+                    <title>Verificar Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969953472' status='passed' stop='1626969953472'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626969956524' status='passed' stop='1626969961239'>
+            <name>Agregar al carrito</name>
+            <title>Agregar al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626969956524' status='passed' stop='1626969956524'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969960992' status='passed' stop='1626969960992'>
+                    <name>Agregar prenda al carrito</name>
+                    <title>Agregar prenda al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626969961242' status='passed' stop='1626969977297'>
+            <name>Relizar chekout</name>
+            <title>Relizar chekout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626969961243' status='passed' stop='1626969961243'>
+                    <name>Ir al checkout</name>
+                    <title>Ir al checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969966953' status='passed' stop='1626969966953'>
+                    <name>Ir al checkout</name>
+                    <title>Ir al checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969968576' status='passed' stop='1626969968576'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969970882' status='passed' stop='1626969970882'>
+                    <name>Aceptar términos y condiciones</name>
+                    <title>Aceptar términos y condiciones</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626969970961' status='passed' stop='1626969970961'>
+                    <name>Avanzar al siguiente paso del shipping</name>
+                    <title>Avanzar al siguiente paso del shipping</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

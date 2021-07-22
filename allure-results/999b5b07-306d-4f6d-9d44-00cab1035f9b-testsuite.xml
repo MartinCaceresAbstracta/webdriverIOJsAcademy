@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626976558474' stop='1626976566224'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626976558474' status='failed' stop='1626976566223'>
+            <name>Comparación de imágenes</name>
+            <title>Comparación de imágenes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eefa1723-5070-4e3f-beee-2cae4a7e5035-attachment.png' type='image/png' size='422038'/>
+                <attachment title='Screenshot' source='dbff0f48-f437-4ca0-af3a-9c85e2a339e0-attachment.png' type='image/png' size='434926'/>
+            </attachments>
+            <failure>
+                <message>expected 0 to not equal 0      
+                      actual expected
+                      
+                      0
+                      </message>
+                <stack-trace>AssertionError: expected 0 to not equal 0
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:58:91)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

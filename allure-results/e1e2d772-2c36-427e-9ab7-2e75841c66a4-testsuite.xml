@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626897703407' stop='1626897703527'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626897703408' status='passed' stop='1626897703522'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626897703493' status='passed' stop='1626897703493'>
+                    <name>Abrir automationpractice: /</name>
+                    <title>Abrir automationpractice: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626897703494' status='passed' stop='1626897703494'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626897703497' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6b39c9f6-c778-442c-891d-7e5471b08896-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1626897703508' status='passed' stop='1626897703508'>
+                            <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                            <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1626897703508' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='ae5096e1-9083-4a75-80a1-c5e5c1658918-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1626897703515' status='undefined'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='9c959d7c-dbae-43f2-bdf4-78978716186c-attachment.json' type='application/json' size='45'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

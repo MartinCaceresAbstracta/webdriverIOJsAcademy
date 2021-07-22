@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626970922664' stop='1626970952784'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626970922664' status='passed' stop='1626970931662'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626970922718' status='passed' stop='1626970922718'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970927618' status='passed' stop='1626970927618'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970929708' status='passed' stop='1626970929708'>
+                    <name>Verificar Header</name>
+                    <title>Verificar Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970929747' status='passed' stop='1626970929747'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626970931663' status='passed' stop='1626970933538'>
+            <name>Agregar al carrito</name>
+            <title>Agregar al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626970931663' status='passed' stop='1626970931663'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970933274' status='passed' stop='1626970933274'>
+                    <name>Agregar prenda al carrito</name>
+                    <title>Agregar prenda al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626970933540' status='broken' stop='1626970952783'>
+            <name>Relizar chekout</name>
+            <title>Relizar chekout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626970933541' status='passed' stop='1626970933541'>
+                    <name>Ir al checkout</name>
+                    <title>Ir al checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970935511' status='passed' stop='1626970935511'>
+                    <name>Ir al checkout</name>
+                    <title>Ir al checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970938313' status='passed' stop='1626970938313'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970940708' status='passed' stop='1626970940708'>
+                    <name>Aceptar términos y condiciones</name>
+                    <title>Aceptar términos y condiciones</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970940791' status='passed' stop='1626970940791'>
+                    <name>Avanzar al siguiente paso del shipping</name>
+                    <title>Avanzar al siguiente paso del shipping</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626970942728' status='passed' stop='1626970942728'>
+                    <name>Seleccionar cheque como método de pago</name>
+                    <title>Seleccionar cheque como método de pago</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("=Pay by check.") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("=Pay by check.") still not clickable after 10000ms
+                    at C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.wrapCommandFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Checkout.clickearElemento (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\pages\/base.page.js:21:8)
+                    at Checkout.seleccionarMetodoDePagoCheque (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\pages\/checkout.page.js:38:9)
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:46:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

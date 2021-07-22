@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626976802172' stop='1626976809954'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626976802173' status='passed' stop='1626976809954'>
+            <name>Comparación de imágenes</name>
+            <title>Comparación de imágenes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='72ed0372-d9e6-4771-8319-c30190bf1e2d-attachment.png' type='image/png' size='422038'/>
+                <attachment title='Screenshot' source='a4366278-9d1c-46a6-b7e4-f0dc01dc6378-attachment.png' type='image/png' size='434926'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626959935991' stop='1626959951251'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626959935991' status='passed' stop='1626959946430'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626959936043' status='passed' stop='1626959936043'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626959940816' status='passed' stop='1626959940816'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626959944666' status='passed' stop='1626959944666'>
+                    <name>Verificar Header</name>
+                    <title>Verificar Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626959944699' status='passed' stop='1626959944699'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626959946430' status='passed' stop='1626959948105'>
+            <name>Buscar articulo</name>
+            <title>Buscar articulo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626959946430' status='passed' stop='1626959946430'>
+                    <name>Buscar artículo: Faded Short Sleeve T-shirts</name>
+                    <title>Buscar artículo: Faded Short Sleeve T-shirts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626959946768' status='passed' stop='1626959946768'>
+                    <name>Obtener el nombre del resultado</name>
+                    <title>Obtener el nombre del resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626959948105' status='passed' stop='1626959951250'>
+            <name>Agregar/Validar/Eliminar de la lista de deseados</name>
+            <title>Agregar/Validar/Eliminar de la lista de deseados</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626959948106' status='passed' stop='1626959948106'>
+                    <name>Ingresar al resultado de la búsqueda</name>
+                    <title>Ingresar al resultado de la búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626959949960' status='passed' stop='1626959949960'>
+                    <name>Agregar articulo a la lista de deseados</name>
+                    <title>Agregar articulo a la lista de deseados</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626959950081' status='passed' stop='1626959950081'>
+                    <name>Cerrar aviso</name>
+                    <title>Cerrar aviso</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

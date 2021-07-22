@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626901748967' stop='1626901755875'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626901748967' status='failed' stop='1626901755874'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626901749014' status='passed' stop='1626901749014'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626901749015' status='passed' stop='1626901753557'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='eebdfa39-0cd6-4bdc-b349-5050499b770f-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626901753557' status='passed' stop='1626901753557'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626901753558' status='passed' stop='1626901753581'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eee6a204-872d-42a9-bbc9-cf0303a6aa31-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='1f179a62-1ede-448e-980a-1b7564f90b4d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626901753587' status='passed' stop='1626901753620'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='d14e12db-d577-4eee-8777-1a6a3b14c945-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='af06c00b-d35c-4834-bba5-7aa95456262f-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626901753620' status='passed' stop='1626901753639'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='dc6ef7f6-f796-4d17-879c-5b94fb429a16-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='395a9537-31bc-4e09-b077-a22114008e96-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626901753640' status='passed' stop='1626901755834'>
+                    <name>POST /session/:sessionId/element/9aa74bda-a9c0-4435-b16c-9d8d1e226df1/click</name>
+                    <title>POST /session/:sessionId/element/9aa74bda-a9c0-4435-b16c-9d8d1e226df1/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626901755834' status='passed' stop='1626901755834'>
+                    <name>Obtener texto del header</name>
+                    <title>Obtener texto del header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626901755834' status='passed' stop='1626901755854'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2a9ef084-6cd5-4fed-8d42-739780f97a06-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='53446b1f-bb6e-49f1-b32e-d45539a455b8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626901755857' status='passed' stop='1626901755865'>
+                    <name>GET /session/:sessionId/element/bdc7c4a5-1c86-486b-9133-a4e0845b6dc8/property/value</name>
+                    <title>GET /session/:sessionId/element/bdc7c4a5-1c86-486b-9133-a4e0845b6dc8/property/value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626901755867' status='failed' stop='1626901755874'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected null to equal 'AUTHENTICATION'      
+                      actual expected
+                      
+                      null'AUTHENTICATION'
+                      </message>
+                <stack-trace>AssertionError: expected null to equal 'AUTHENTICATION'
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:20:67)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

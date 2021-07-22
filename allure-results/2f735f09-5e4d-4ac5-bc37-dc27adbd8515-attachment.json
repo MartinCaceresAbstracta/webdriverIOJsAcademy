@@ -1,0 +1,162 @@
+{
+  "actions": [
+    {
+      "type": "key",
+      "id": "keyboard",
+      "actions": [
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "e"
+        },
+        {
+          "type": "keyDown",
+          "value": "s"
+        },
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "m"
+        },
+        {
+          "type": "keyDown",
+          "value": "a"
+        },
+        {
+          "type": "keyDown",
+          "value": "r"
+        },
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "i"
+        },
+        {
+          "type": "keyDown",
+          "value": "n"
+        },
+        {
+          "type": "keyDown",
+          "value": "@"
+        },
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "e"
+        },
+        {
+          "type": "keyDown",
+          "value": "s"
+        },
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "."
+        },
+        {
+          "type": "keyDown",
+          "value": "c"
+        },
+        {
+          "type": "keyDown",
+          "value": "o"
+        },
+        {
+          "type": "keyDown",
+          "value": "m"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "e"
+        },
+        {
+          "type": "keyUp",
+          "value": "s"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "m"
+        },
+        {
+          "type": "keyUp",
+          "value": "a"
+        },
+        {
+          "type": "keyUp",
+          "value": "r"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "i"
+        },
+        {
+          "type": "keyUp",
+          "value": "n"
+        },
+        {
+          "type": "keyUp",
+          "value": "@"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "e"
+        },
+        {
+          "type": "keyUp",
+          "value": "s"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "."
+        },
+        {
+          "type": "keyUp",
+          "value": "c"
+        },
+        {
+          "type": "keyUp",
+          "value": "o"
+        },
+        {
+          "type": "keyUp",
+          "value": "m"
+        }
+      ]
+    }
+  ]
+}

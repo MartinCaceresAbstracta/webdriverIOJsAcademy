@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626899347386' stop='1626899355076'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626899347387' status='broken' stop='1626899355074'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626899347437' status='passed' stop='1626899347437'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626899347438' status='passed' stop='1626899352817'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='80593d40-3fc7-48b3-8aea-e5eb02226444-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626899352817' status='passed' stop='1626899352817'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626899352819' status='passed' stop='1626899352835'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ad619fbc-04c3-4a24-8c42-0b9a55c52a39-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='91d05207-e9c7-40e3-b9ed-2bb28f7f1274-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626899352841' status='passed' stop='1626899352861'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='5752b579-bb11-40bf-9c6d-6b87d510d5f0-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='b6cdf498-b3fa-4724-82ee-3edfe0b914da-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626899352862' status='passed' stop='1626899352881'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b2188b09-2085-4674-b672-efc8d70aeeca-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='6a8d7f53-ce8a-46a6-adb1-635cc0cf8c62-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626899352882' status='passed' stop='1626899355040'>
+                    <name>POST /session/:sessionId/element/26851694-f921-4f2c-9fc2-5225585f214b/click</name>
+                    <title>POST /session/:sessionId/element/26851694-f921-4f2c-9fc2-5225585f214b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626899355040' status='passed' stop='1626899355040'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626899355041' status='passed' stop='1626899355063'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1fd39f3e-6ba7-4cbe-9117-96b59febf135-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='faef1675-3d8d-4725-8fda-fddbd430291f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626899355066' status='broken' stop='1626899355074'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value).clearAndSendKeys is not a function</message>
+                <stack-trace>TypeError: (intermediate value).clearAndSendKeys is not a function
+                    at LoginPage.login (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\pages\/login.page.js:20:21)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:20:13)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

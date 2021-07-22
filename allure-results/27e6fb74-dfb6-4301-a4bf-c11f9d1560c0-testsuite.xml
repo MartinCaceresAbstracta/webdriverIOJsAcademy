@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626960135303' stop='1626960156402'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626960135304' status='passed' stop='1626960145498'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626960135357' status='passed' stop='1626960135357'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960140468' status='passed' stop='1626960140468'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960143091' status='passed' stop='1626960143091'>
+                    <name>Verificar Header</name>
+                    <title>Verificar Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960143141' status='passed' stop='1626960143141'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626960145499' status='passed' stop='1626960147558'>
+            <name>Buscar articulo</name>
+            <title>Buscar articulo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626960145499' status='passed' stop='1626960145499'>
+                    <name>Buscar artículo: Faded Short Sleeve T-shirts</name>
+                    <title>Buscar artículo: Faded Short Sleeve T-shirts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960145744' status='passed' stop='1626960145744'>
+                    <name>Obtener el nombre del resultado</name>
+                    <title>Obtener el nombre del resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626960147558' status='passed' stop='1626960156401'>
+            <name>Agregar/Validar/Eliminar de la lista de deseados</name>
+            <title>Agregar/Validar/Eliminar de la lista de deseados</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626960147558' status='passed' stop='1626960147558'>
+                    <name>Ingresar al resultado de la búsqueda</name>
+                    <title>Ingresar al resultado de la búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960150043' status='passed' stop='1626960150043'>
+                    <name>Agregar articulo a la lista de deseados</name>
+                    <title>Agregar articulo a la lista de deseados</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960150162' status='passed' stop='1626960150162'>
+                    <name>Cerrar aviso</name>
+                    <title>Cerrar aviso</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960151293' status='passed' stop='1626960151293'>
+                    <name>Ir a la cuenta</name>
+                    <title>Ir a la cuenta</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960153115' status='passed' stop='1626960153115'>
+                    <name>Ir a las listas de deseados</name>
+                    <title>Ir a las listas de deseados</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960154600' status='passed' stop='1626960154600'>
+                    <name>Ingresar a mi lista de deseados</name>
+                    <title>Ingresar a mi lista de deseados</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960154733' status='passed' stop='1626960154733'>
+                    <name>Obtener nombre de artículo</name>
+                    <title>Obtener nombre de artículo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960156313' status='passed' stop='1626960156313'>
+                    <name>Eliminar artículo de la lista</name>
+                    <title>Eliminar artículo de la lista</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

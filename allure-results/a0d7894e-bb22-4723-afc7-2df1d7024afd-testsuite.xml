@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626960735453' stop='1626960775610'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626960735453' status='passed' stop='1626960760771'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626960735509' status='passed' stop='1626960735509'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960744651' status='passed' stop='1626960744651'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960753533' status='passed' stop='1626960753533'>
+                    <name>Verificar Header</name>
+                    <title>Verificar Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960753572' status='passed' stop='1626960753572'>
+                    <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                    <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626960760771' status='passed' stop='1626960765541'>
+            <name>Buscar articulo</name>
+            <title>Buscar articulo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626960760772' status='passed' stop='1626960760772'>
+                    <name>Buscar artículo: Faded Short Sleeve T-shirts</name>
+                    <title>Buscar artículo: Faded Short Sleeve T-shirts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960761025' status='passed' stop='1626960761025'>
+                    <name>Obtener el nombre del resultado</name>
+                    <title>Obtener el nombre del resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626960765542' status='passed' stop='1626960772904'>
+            <name>Agregar/Validar/Eliminar de la lista de deseados</name>
+            <title>Agregar/Validar/Eliminar de la lista de deseados</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626960765542' status='passed' stop='1626960765542'>
+                    <name>Ingresar al resultado de la búsqueda</name>
+                    <title>Ingresar al resultado de la búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960767484' status='passed' stop='1626960767484'>
+                    <name>Agregar articulo a la lista de deseados</name>
+                    <title>Agregar articulo a la lista de deseados</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960767614' status='passed' stop='1626960767614'>
+                    <name>Cerrar aviso</name>
+                    <title>Cerrar aviso</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960768735' status='passed' stop='1626960768735'>
+                    <name>Ir a la cuenta</name>
+                    <title>Ir a la cuenta</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960770509' status='passed' stop='1626960770509'>
+                    <name>Ir a las listas de deseados</name>
+                    <title>Ir a las listas de deseados</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960771572' status='passed' stop='1626960771572'>
+                    <name>Ingresar a mi lista de deseados</name>
+                    <title>Ingresar a mi lista de deseados</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960771717' status='passed' stop='1626960771717'>
+                    <name>Obtener nombre de artículo</name>
+                    <title>Obtener nombre de artículo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960772806' status='passed' stop='1626960772806'>
+                    <name>Eliminar artículo de la lista</name>
+                    <title>Eliminar artículo de la lista</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626960772904' status='broken' stop='1626960775605'>
+            <name>Agregar al carrito</name>
+            <title>Agregar al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626960772905' status='passed' stop='1626960772905'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626960775449' status='passed' stop='1626960775449'>
+                    <name>Agregar prenda al carrito</name>
+                    <title>Agregar prenda al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value).clickearElemento(...) is not a function</message>
+                <stack-trace>TypeError: (intermediate value).clickearElemento(...) is not a function
+                    at HomePage.agregarPrendaAlCarritoYEsperar (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\pages\/home.page.js:32:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:39:9)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

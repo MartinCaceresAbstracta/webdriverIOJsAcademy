@@ -1,0 +1,28 @@
+{
+  "name": "webdriveriopruebafinalacademy",
+  "version": "1.0.0",
+  "description": "webdriverioPruebaFinal",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./wdio.conf.js"
+  },
+  "author": "martin caceres",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/register": "^7.14.5",
+    "@wdio/allure-reporter": "^7.7.7",
+    "@wdio/local-runner": "^7.7.8",
+    "@wdio/mocha-framework": "^7.7.7",
+    "@wdio/selenium-standalone-service": "^7.7.7",
+    "@wdio/spec-reporter": "^7.7.7",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "wdio-image-comparison-service": "^2.3.0",
+    "webdriverio": "^7.7.8"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.7.8"
+  }
+}

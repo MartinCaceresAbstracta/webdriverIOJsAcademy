@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626965651072' stop='1626965659555'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626965651073' status='broken' stop='1626965659554'>
+            <name>Agregar al carrito</name>
+            <title>Agregar al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626965651122' status='passed' stop='1626965651122'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626965659152' status='passed' stop='1626965659152'>
+                    <name>Agregar prenda al carrito</name>
+                    <title>Agregar prenda al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626965659451' status='passed' stop='1626965659451'>
+                    <name>Obtener texto de validación</name>
+                    <title>Obtener texto de validación</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=91.0.4472.164)</message>
+                <stack-trace>invalid selector: invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=91.0.4472.164)
+                    at Object.getErrorFromResponseBody (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Browser.wrapCommandFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Browser.$ (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\webdriverio\build\commands\browser\$.js:83:17)
+                    at Browser.wrapCommandFn (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at HomePage.obtenerTextoValidacionCarrito (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\pages\/home.page.js:44:17)
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:40:22)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

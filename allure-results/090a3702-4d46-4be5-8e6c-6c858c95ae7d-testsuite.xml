@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626896551078' stop='1626896551170'>
+    <name>Compra</name>
+    <title>Compra</title>
+    <test-cases>
+        <test-case start='1626896551078' status='failed' stop='1626896551165'>
+            <name>Log in</name>
+            <title>Log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626896551128' status='passed' stop='1626896551129'>
+                    <name>Abrir automationpractice: /</name>
+                    <title>Abrir automationpractice: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626896551129' status='passed' stop='1626896551129'>
+                    <name>Navegar a login</name>
+                    <title>Navegar a login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626896551130' status='failed' stop='1626896551165'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='52e96e95-2a70-4422-a757-ab77bcb674a2-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1626896551136' status='passed' stop='1626896551136'>
+                            <name>Login con usuario: testmartin@test.com y contraseña 12345</name>
+                            <title>Login con usuario: testmartin@test.com y contraseña 12345</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1626896551137' status='failed' stop='1626896551165'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='e4b8413c-43d6-428d-81ef-7b4ec6c4572d-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1626896551140' status='passed' stop='1626896551140'>
+                                    <name>Obtener texto del header</name>
+                                    <title>Obtener texto del header</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1626896551141' status='failed' stop='1626896551165'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='8c63b825-2423-4807-a227-cadbfd77c650-attachment.json' type='application/json' size='46'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1626896551147' status='failed' stop='1626896551165'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1626896551150' status='failed' stop='1626896551165'>
+                                                    <name>POST /session/:sessionId/url</name>
+                                                    <title>POST /session/:sessionId/url</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='41667147-f895-41b4-8bcd-97680fb84ded-attachment.json' type='application/json' size='45'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected {} to equal 'AUTHENTICATION'      
+                      actual expected
+                      
+                      Promise [Promise] {}'AUTHENTICATION'
+                      </message>
+                <stack-trace>AssertionError: expected {} to equal 'AUTHENTICATION'
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\tests\/comprar.test.js:19:55)
+                    at Context.executeAsync (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (C:\Users\Usuario\Desktop\webdriverioPruebaFinalAcademy\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
